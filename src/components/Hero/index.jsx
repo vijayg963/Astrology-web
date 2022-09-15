@@ -1,7 +1,7 @@
 import React from 'react';
-import { AiOutlineStar, AiTwotoneStar } from 'react-icons/Ai';
-import { BsStarHalf } from 'react-icons/Bs';
-import { FaStarHalf } from 'react-icons/Fa';
+import { AiOutlineStar, AiTwotoneStar } from 'react-icons/ai';
+import { BsStarHalf } from 'react-icons/bs';
+import { FaStarHalf } from 'react-icons/fa';
 
 const HeroSection = () => {
   return (

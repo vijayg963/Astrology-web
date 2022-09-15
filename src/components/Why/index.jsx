@@ -1,5 +1,5 @@
 import React from 'react';
-import { BsFillArrowUpCircleFill } from 'react-icons/Bs';
+import { BsFillArrowUpCircleFill } from 'react-icons/bs';
 
 export default function Why() {
   return (
