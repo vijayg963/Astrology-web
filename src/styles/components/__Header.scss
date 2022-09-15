@@ -1,4 +1,5 @@
 .main-header {
+  box-sizing: border-box;
   margin: 0 auto;
   height: 80px;
   max-width: 100%;
@@ -15,7 +16,7 @@
 }
 
 .hint {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 .profile {
@@ -91,4 +92,10 @@ ul li :hover {
   color: #965efb;
   font-size: 2rem;
   font-weight: 600;
+}
+
+@media screen and (max-width: 800px) {
+  .main-header {
+    font-size: 7px;
+  }
 }

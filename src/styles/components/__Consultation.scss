@@ -42,6 +42,8 @@
     padding: 1rem;
   }
   .star {
+    display: -webkit-box;
+    flex-direction: row;
     img {
       width: 20px;
     }
@@ -79,6 +81,5 @@
 
 .set-Card {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
 }

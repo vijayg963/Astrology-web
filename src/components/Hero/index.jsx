@@ -6,10 +6,19 @@ import { FaStarHalf } from 'react-icons/fa';
 const HeroSection = () => {
   return (
     <section className='heroSection bg-banner'>
-      <div className='hero-img'>
+      <div className='hero-img hide'>
         <img width={'100%'} src='banner.png' alt='banner' />
       </div>
       <div className='container'>
+        <div className='magic-contain'>
+          <img
+            className='magic-img'
+            width={700}
+            height={300}
+            src='banner.png'
+            alt='banner'
+          />
+        </div>
         <div className='heroContent'>
           <h2 className='title'>
             Find your destiny and remedies with top expert astrologers

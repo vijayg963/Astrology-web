@@ -28,10 +28,6 @@
     padding: 1rem 0;
   }
 
-  .heroContent {
-    font-size: 7rem;
-  }
-
   .flex-only {
     display: flex;
     justify-content: center;
@@ -53,22 +49,27 @@
 @media screen and (max-width: 480px) {
   body {
     font-size: 4px;
+    box-sizing: border-box;
   }
-  .heroSection .heroContent .btn {
-    display: none;
-  }
+
   .main-title {
     margin-top: 5rem;
   }
+
   .heroContent .rating {
     margin: 0.5rem;
   }
+
   .container-footer {
     display: flex;
     flex-direction: column;
     .host {
       margin: 2rem 0;
     }
+  }
+
+  .consult {
+    padding-top: 1rem;
   }
 }
 

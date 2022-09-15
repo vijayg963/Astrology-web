@@ -8,7 +8,7 @@ const Consultation = () => {
       <section className='consultation-section'>
         <div className='container-consultation'>
           <h1>Start your first consultation ＠₹5/min</h1>
-          <div className='set-Card'>
+          <div className='set-Card slider'>
             {data.map((elm) => (
               <div className='consultation-box'>
                 <div className='card'>
@@ -18,7 +18,7 @@ const Consultation = () => {
                   </div>
                 </div>
                 <div className='card-subbox'>
-                  <div className='star flex'>
+                  <div className='star flex-only'>
                     <div>
                       <img width={15} src={elm.star} alt='star' />
                     </div>

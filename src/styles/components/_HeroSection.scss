@@ -103,20 +103,50 @@
   color: #ee7f55;
 }
 
+.magic-img {
+  display: none;
+}
+
 @media screen and (max-width: 800px) {
   body {
     font-size: 6px;
   }
 
+  .magic-contain {
+    height: 320px;
+    width: 100%;
+    overflow: hidden;
+  }
+  .heroSection .magic-img {
+    display: block;
+    object-fit: cover;
+    height: 430px;
+    width: 100%;
+    margin-top: -100px;
+    object-position: 100% 100%;
+  }
+
   .heroSection .container {
-    position: statics;
+    position: static;
+    padding-top: 0;
   }
 
   .heroSection .heroContent {
     width: 100%;
+    .btn {
+      width: 100%;
+    }
   }
 
   .hero-img {
     height: 400px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .heroSection .magic-img {
+    object-fit: cover;
+    height: 300px;
+    margin-top: 20px;
   }
 }
