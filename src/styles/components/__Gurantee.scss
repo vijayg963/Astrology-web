@@ -1,0 +1,83 @@
+.line {
+  border: 1px solid lightgrey;
+  position: relative;
+}
+
+.frame {
+  position: absolute;
+  left: 45%;
+  right: 55%;
+  top: -30px;
+  width: 80px;
+  height: 80px;
+  background-color: white;
+}
+
+.gurantee h2 {
+  text-align: center;
+  font-size: 4rem;
+  margin-top: 5rem;
+}
+
+.gurantee p {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
+.gurantee-card {
+  background-color: #ffffff;
+  width: 500px;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin: 2rem 0;
+}
+.client {
+  width: 60px;
+  height: 60px;
+}
+.clientInfo {
+  padding: 1rem;
+}
+.star {
+  width: 15px;
+  margin-left: 0.5rem;
+}
+
+.clientInfo h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.clientInfo a {
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.clientInfo span {
+  margin-left: 1rem;
+}
+
+.clientInfo p {
+  text-align: left;
+  line-height: 1.5;
+  font-size: 1.2rem;
+  margin: 2rem 0;
+}
+
+.clientInfo button {
+  background-color: #ffffff;
+  border: 1px solid rgb(145, 30, 145);
+  color: rgb(158, 51, 158);
+  outline: none;
+  border-radius: 2rem;
+  padding: 0.3rem 1.2rem;
+  margin: 0.5rem;
+}
+
+.wrap {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}

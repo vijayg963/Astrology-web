@@ -1,0 +1,33 @@
+.container-cta {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  img {
+    // width: 1300px;
+    // width: auto;
+    width: 100%;
+  }
+  .cta-box {
+    position: absolute;
+    top: 40%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  h1 {
+    font-size: 6rem;
+    font-weight: 700;
+    margin-bottom: 4rem;
+    color: white;
+  }
+  button {
+    width: 312px;
+    padding: 1rem;
+    font-size: 2rem;
+    background-color: #7514fa;
+    color: white;
+    cursor: pointer;
+    border: none;
+  }
+}

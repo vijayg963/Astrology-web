@@ -1,0 +1,60 @@
+.howItWorks {
+  padding: 64px 40px 48px;
+  background: #f6f4f8;
+  h1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;
+    letter-spacing: -0.02em;
+    color: #222222;
+    margin-bottom: 2rem;
+  }
+}
+
+.section-howItWorks {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px;
+  justify-content: space-around;
+}
+
+.parent-img {
+  img {
+    height: 280px;
+    width: 280px;
+    object-fit: cover;
+  }
+
+  h2 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 2rem;
+    /* identical to box height, or 100% */
+
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #222222;
+  }
+
+  p {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    width: 280px;
+    height: 72px;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #707070;
+  }
+}
