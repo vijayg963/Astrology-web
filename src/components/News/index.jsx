@@ -9,7 +9,7 @@ const News = () => {
           <h1>Guruji in News</h1>
           <p>Our Sucess stories in Media Headlines and lots of Encouragement</p>
           <div>
-            <div className='news-box'>
+            <div className='news-box slider'>
               {data.map((elm, i) => (
                 <>
                   <div key={i} className='news'>

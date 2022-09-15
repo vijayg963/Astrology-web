@@ -14,11 +14,11 @@ function Card() {
             <h3>Swatanwa Astro to </h3>
             <a href='#'>Exporu u</a>
           </div>
-          <img className='star' src='/src/assets/蒙版.png' alt='star' />
-          <img className='star' src='/src/assets/蒙版.png' alt='star' />
-          <img className='star' src='/src/assets/蒙版.png' alt='star' />
-          <img className='star' src='/src/assets/蒙版.png' alt='star' />
-          <img className='star' src='/src/assets/蒙版.png' alt='star' />
+          <img className='star' src='starb.png' alt='star' />
+          <img className='star' src='starb.png' alt='star' />
+          <img className='star' src='starb.png' alt='star' />
+          <img className='star' src='starb.png' alt='star' />
+          <img className='star' src='starb.png' alt='star' />
           <span>August 25th 2021</span>
           <p>
             Gave me a basic understanding of some key words sand phrases which i

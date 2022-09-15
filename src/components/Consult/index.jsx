@@ -11,10 +11,10 @@ const Consult = () => {
         <button>Scenario</button>
         <button className='active'>Consult methods</button>
       </div>
-      <div className='flex slider'>
+      <div className='flex-only slider'>
         {data.map((elm) => (
           <div className='cases'>
-            <img width={190} height={300} src={elm.img} alt={elm.title} />
+            <img width={180} height={300} src={elm.img} alt={elm.title} />
             <div className='case-name'>
               <h3>{elm.title}</h3>
               <p>{elm.bio}</p>

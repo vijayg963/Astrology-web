@@ -2,7 +2,7 @@
   background-size: cover;
   position: relative;
   img {
-    object-fit: cover;
+    height: 500px;
   }
   &.bg-banner {
     background: url('/HeroImages/banner.png');
@@ -12,27 +12,28 @@
     top: 0;
     left: 0;
     right: 0;
+    bottom: 0;
   }
   .heroContent {
     color: #222222;
     h4 {
       font-weight: 700;
-      font-size: 40px;
+      font-size: 4rem;
       line-height: 48px;
       padding: 2rem 0;
       border-bottom: 1px solid rgba(34, 34, 34, 0.4);
     }
     h5 {
       font-weight: 500;
-      font-size: 20px;
+      font-size: 2rem;
       line-height: 32px;
-      padding: 2rem 0;
+      padding: 1rem 0;
     }
     .btn {
       background: linear-gradient(180deg, #6b17ff 0%, #7f11f6 100%);
       border-radius: 8px;
       font-weight: 700;
-      font-size: 18px;
+      font-size: 1.8rem;
       line-height: 23px;
       text-align: center;
       color: #ffffff;
@@ -46,7 +47,7 @@
 
 .heroContent {
   width: 50%;
-  margin: 5rem 2rem;
+  margin: 4rem 2rem;
   max-width: 100%;
   h2 {
     font-size: 4rem;
@@ -100,4 +101,22 @@
 
 .orange {
   color: #ee7f55;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    font-size: 6px;
+  }
+
+  .heroSection .container {
+    position: statics;
+  }
+
+  .heroSection .heroContent {
+    width: 100%;
+  }
+
+  .hero-img {
+    height: 400px;
+  }
 }

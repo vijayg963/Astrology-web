@@ -5,7 +5,6 @@ export default function Why() {
   return (
     <div className='Why-section'>
       <h2 className='main-title'>
-        {' '}
         Why Astrology ? <BsFillArrowUpCircleFill />
       </h2>
       <p className='sub-title'>Astrology reveals the will of the god</p>

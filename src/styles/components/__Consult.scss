@@ -1,6 +1,7 @@
 .consult {
   padding: 8rem 5rem;
   .cases {
+    width: 190px;
     position: relative;
     margin: 1rem;
     text-align: center;
@@ -19,6 +20,11 @@
   }
 }
 
+.flex-only {
+  display: flex;
+  justify-content: center;
+}
+
 .btn-secondary {
   text-align: center;
   width: 100%;
@@ -34,12 +40,5 @@
   .active {
     color: white;
     background-color: rgb(19, 17, 17);
-  }
-}
-
-.slider {
-  overflow-y: scroll;
-  ::-webkit-scrollbar {
-    display: none;
   }
 }

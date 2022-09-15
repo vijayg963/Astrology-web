@@ -37,7 +37,7 @@ const Consultation = () => {
                 </div>
               </div>
             ))}
-            <div>
+            <div className='hide btn-third'>
               <button className='see_more'>See more</button>
             </div>
           </div>

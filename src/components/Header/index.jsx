@@ -15,7 +15,7 @@ const Header = () => {
         <span className='btn'>
           English <img src='dropdown.png' alt='dropdown' />
         </span>
-        <span className='btn'>
+        <span className='btn hide'>
           <img src='wallet.png' alt='wallet' /> $200
         </span>
         <span className={visible ? 'avtar display' : 'avtar'}>

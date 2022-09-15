@@ -11,5 +11,40 @@
 @import 'components/_Why';
 @import 'components/_Consult';
 @import 'components/_Footer';
-@import 'components/_Work';
 @import 'components/_Consultation';
+
+@media screen and (max-width: 800px) {
+  body {
+    font-size: 7px;
+  }
+
+  .slider {
+    overflow-y: scroll;
+  }
+  .hide {
+    display: none;
+  }
+  .main-header {
+    padding: 1rem 0;
+  }
+
+  .heroContent {
+    font-size: 7rem;
+  }
+
+  .flex-only {
+    display: flex;
+    justify-content: center;
+  }
+
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  body {
+    font-size: 4px;
+  }
+}

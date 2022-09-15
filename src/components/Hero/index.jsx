@@ -6,7 +6,9 @@ import { FaStarHalf } from 'react-icons/fa';
 const HeroSection = () => {
   return (
     <section className='heroSection bg-banner'>
-      <img width={'100%'} src='banner.png' alt='banner' />
+      <div className='hero-img'>
+        <img width={'100%'} src='banner.png' alt='banner' />
+      </div>
       <div className='container'>
         <div className='heroContent'>
           <h2 className='title'>
