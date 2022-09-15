@@ -40,6 +40,13 @@
   .flex {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+  }
+  .heroContent {
+    display: block;
+    padding: 0;
+    margin: 0;
+    position: static;
   }
 }
 

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const Header = () => {
-  const [visible, setvisible] = useState(false);
+  const [visible, setvisible] = useState(true);
 
   return (
     <div className='main-header'>
@@ -18,15 +18,15 @@ const Header = () => {
         <span className='btn hide'>
           <img src='wallet.png' alt='wallet' /> $200
         </span>
-        <span className={visible ? 'avtar display' : 'avtar'}>
+        <span className={'avtar'}>
           <img
             src='Avatar-m.png'
             alt='Avatar'
-            onClick={() => setvisible(true)}
+            onClick={() => setvisible(visible ? false : true)}
           />
         </span>
       </div>
-      <div className='p-tab'>
+      <div className={visible ? 'display  ' : 'p-tab'}>
         <div>
           <img width={80} height={80} src='Avatar-m.png' alt='avatar' />
           <h3>Phlipy</h3>
