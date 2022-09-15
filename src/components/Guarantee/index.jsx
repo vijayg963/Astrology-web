@@ -5,7 +5,7 @@ function Gurantee() {
     <>
       <div className='gurantee container'>
         <div className='line'>
-          <img className='frame' src='/src/assets/Frame.png' alt='frame' />
+          <img className='frame' src='Frame.png' alt='frame' />
         </div>{' '}
         <h2>100% Satisfaction gurantee</h2>
         <p className='sub-title'>

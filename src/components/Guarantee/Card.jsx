@@ -3,11 +3,7 @@ function Card() {
     <>
       <div className='gurantee-card flex '>
         <div>
-          <img
-            className='client'
-            src='/src/assets/avtar.png'
-            alt='client-image'
-          />
+          <img className='client' src='avtar.png' alt='client-image' />
         </div>
         <div className='clientInfo '>
           <div className='flex'>
