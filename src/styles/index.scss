@@ -50,6 +50,28 @@
   }
 }
 
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 4px;
+  }
+  .heroSection .heroContent .btn {
+    display: none;
+  }
+  .main-title {
+    margin-top: 5rem;
+  }
+  .heroContent .rating {
+    margin: 0.5rem;
+  }
+  .container-footer {
+    display: flex;
+    flex-direction: column;
+    .host {
+      margin: 2rem 0;
+    }
+  }
+}
+
 @media screen and (max-width: 320px) {
   body {
     font-size: 4px;
